@@ -20,5 +20,6 @@ public class GarbageCollection {
         GarbageCollection g1 = new GarbageCollection();
         g1=null;
         System.gc();
+         System.out.println("Garbage Collected");
     }
 }
